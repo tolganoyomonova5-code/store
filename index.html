@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecommerce Store</title>
+  <meta name="description" content="Online shopping made easy">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#/" class="logo">Store</a>
+      <nav class="nav">
+        <a href="#/" data-link>Home</a>
+        <a href="#/products" data-link>Products</a>
+        <a href="#/categories" data-link>Categories</a>
+      </nav>
+      <div class="actions">
+        <button id="theme" class="icon-btn" aria-label="Toggle theme" data-icon="moon"></button>
+        <a href="#/wishlist" class="icon-btn" aria-label="Wishlist" data-icon="heart"><span class="badge" id="wishCount">0</span></a>
+        <a href="#/cart" class="icon-btn" aria-label="Cart" data-icon="cart"><span class="badge" id="cartCount">0</span></a>
+        <a href="#/login" class="btn btn--outline" data-icon="user">Login</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h3>Store</h3>
+        <p>Your one-stop shop for all your shopping needs. Quality products, competitive prices, and exceptional service.</p>
+      </div>
+      <div><h3>Shop</h3><ul>
+        <li><a href="#/products">All Products</a></li><li><a href="#/categories">Categories</a></li>
+        <li><a href="#/wishlist">Wishlist</a></li><li><a href="#/cart">Cart</a></li></ul></div>
+      <div><h3>Account</h3><ul>
+        <li><a href="#/login">Login</a></li><li><a href="#/login">Register</a></li>
+        <li><a href="#/login">My Account</a></li><li><a href="#">Order History</a></li></ul></div>
+      <div><h3>Contact</h3><ul>
+        <li>123 Shopping Street, Retail City, 10001</li><li>(123) 456-7890</li><li>info@store.com</li></ul></div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© 2023 Store. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> <a href="#">Terms of Service</a> <a href="#">Shipping Policy</a></span>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
